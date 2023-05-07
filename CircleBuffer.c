@@ -2,6 +2,8 @@
 static CircleBuffer_t CircleBuffer;
 static volatile uint8_t BusyFlag = 0;
 
+void CircleBufferDelayMs(uint32_t time)
+{}
 
 
 /****************************************/
